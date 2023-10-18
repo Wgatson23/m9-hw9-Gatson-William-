@@ -136,12 +136,13 @@ footer {
 	color: var(--off-white);
 }
 
-@media screen and (max-width: 600px) {
+@media screen (min-width: 220px) and (max-width: 600px) {
 	header {
 		padding: 20px;
 	}
 	header a {
 		font-size: 22px;
+		margin: auto;
 	}
 
 	nav {
